@@ -1,28 +1,18 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Deployment Tracker Architecture", "UseCases\Deployment Tracker Architecture.modelproj", "{26ADFDD5-CA93-4507-8A5C-8B4C1E970C92}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeploymentTracker.App", "Codebase\DeploymentTracker.App.csproj", "{E1792A93-0652-4B31-8D25-C186BF1212C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeploymentTracker.Services", "DeploymentTracker.Code\DeploymentTracker.Services.csproj", "{C25D05E2-812D-4973-A920-9025320F7F02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2241BC7E-CB8D-4032-A6B9-3786866AC11E}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://mcsvstf:8080/tfs/mcs
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = UseCases\\Deployment\u0020Tracker\u0020Architecture.modelproj
-		SccProjectName1 = UseCases
-		SccLocalPath1 = UseCases
-		SccProjectUniqueName2 = Codebase\\DeploymentTracker.App.csproj
-		SccProjectName2 = Codebase
-		SccLocalPath2 = Codebase
-		SccProjectUniqueName3 = DeploymentTracker.Code\\DeploymentTracker.Services.csproj
-		SccProjectName3 = DeploymentTracker.Code
-		SccLocalPath3 = DeploymentTracker.Code
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms

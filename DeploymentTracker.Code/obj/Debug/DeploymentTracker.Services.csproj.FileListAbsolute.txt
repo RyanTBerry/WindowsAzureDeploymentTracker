@@ -22,7 +22,6 @@ E:\GitHub\DeploymentTracker.Code\bin\Debug\DeploymentTracker.Services.pdb
 E:\GitHub\DeploymentTracker.Code\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStore.dll
 E:\GitHub\DeploymentTracker.Code\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.Cache.dll
 E:\GitHub\DeploymentTracker.Code\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.RuleEngine.dll
-E:\GitHub\DeploymentTracker.Code\bin\Debug\Microsoft.WindowsAzure.StorageClient.xml
 E:\GitHub\DeploymentTracker.Code\obj\Debug\DeploymentTracker.Services.csprojResolveAssemblyReference.cache
 E:\GitHub\DeploymentTracker.Code\obj\Debug\DeploymentTracker.Services.dll
 E:\GitHub\DeploymentTracker.Code\obj\Debug\DeploymentTracker.Services.pdb
