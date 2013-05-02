@@ -1,0 +1,10 @@
+C:\Users\ryberry\Documents\Expression\Blend 4\Projects\IWARM_Report\IWARM_Report\bin\Debug\IWARM_Report.Screens.dll
+C:\Users\ryberry\Documents\Expression\Blend 4\Projects\IWARM_Report\IWARM_Report\bin\Debug\IWARM_Report.Screens.pdb
+C:\Users\ryberry\Documents\Expression\Blend 4\Projects\IWARM_Report\IWARM_Report\IWARM_ReportScreens\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ryberry\Documents\Expression\Blend 4\Projects\IWARM_Report\IWARM_Report\IWARM_ReportScreens\obj\Debug\DeploymentReport.baml
+C:\Users\ryberry\Documents\Expression\Blend 4\Projects\IWARM_Report\IWARM_Report\IWARM_ReportScreens\obj\Debug\SketchStyles.baml
+C:\Users\ryberry\Documents\Expression\Blend 4\Projects\IWARM_Report\IWARM_Report\IWARM_ReportScreens\obj\Debug\DeploymentReport.g.cs
+C:\Users\ryberry\Documents\Expression\Blend 4\Projects\IWARM_Report\IWARM_Report\IWARM_ReportScreens\obj\Debug\IWARM_Report.Screens_MarkupCompile.cache
+C:\Users\ryberry\Documents\Expression\Blend 4\Projects\IWARM_Report\IWARM_Report\IWARM_ReportScreens\obj\Debug\IWARM_Report.Screens.g.resources
+C:\Users\ryberry\Documents\Expression\Blend 4\Projects\IWARM_Report\IWARM_Report\IWARM_ReportScreens\obj\Debug\IWARM_Report.Screens.dll
+C:\Users\ryberry\Documents\Expression\Blend 4\Projects\IWARM_Report\IWARM_Report\IWARM_ReportScreens\obj\Debug\IWARM_Report.Screens.pdb

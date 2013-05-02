@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DeploymentTracker.Services.Entities.AzureParams" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAEAAEACAAAAAEgAAEAAAAAAAAAAAACCIAAAAAAA=</HashCode>
+      <FileName>Entities\AzureParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeploymentTracker.Services.Entities.BuildItem" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAQAAAqEAAACAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\BuildItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeploymentTracker.Services.Entities.Constants" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAEAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeploymentTracker.Services.Entities.LabelSearchCriteria" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\LabelSearchCriteria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeploymentTracker.Services.Entities.LogEntry" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAgAAAgACAAAAAAAAAAAAAAAAAQAAIAAAAAA=</HashCode>
+      <FileName>Entities\LogEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeploymentTracker.Services.Entities.TFSConnectionString" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEACAAACAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Entities\TFSConnectionString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeploymentTracker.Services.Tasks.BuildTasks" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAESAACAABIACEEAAAoAQAhAAAQIABAAEIAAAAJA=</HashCode>
+      <FileName>Tasks\BuildTasks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DeploymentTracker.Services.Tasks.CloudDeploymentTasks" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgBAAAAAAAAAAAAAAAAAAAAwAIAAAAAAAAQQhKAAAk=</HashCode>
+      <FileName>Tasks\CloudDeploymentTasks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DeploymentTracker.Services.Entities.OperationType" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DeploymentTracker.Services.Entities.TaskStatus" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DeploymentTracker.Services.Entities.LogType" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

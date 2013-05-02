@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.625, 8.5" name="UMLUseCaseDiagram">
+  <useCaseModelRootMoniker Id="b8c88cdb-57f4-45f9-86fe-f77da90ae4f8" />
+  <nestedChildShapes>
+    <actorShape Id="fb61dee6-0783-46f0-a85f-8e548799c9d6" absoluteBounds="0.625, 3, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="4864b563-d350-4627-8874-bb5f55c2d35d" LastKnownName="Deployment Manager" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="992f278e-f6a0-423f-bcae-3af0c7e8872d" absoluteBounds="2.75, 1, 1.25, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="74cb41bf-8893-402d-90fe-3d6bfaa12b02" LastKnownName="Azure Envrionment Configuration" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.125 : 3.0625); (2.98456559527849 : 1.66782580354114)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="ab558b0d-0b61-498a-baae-6be00ab7f136" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="fb61dee6-0783-46f0-a85f-8e548799c9d6" />
+        <useCaseShapeMoniker Id="992f278e-f6a0-423f-bcae-3af0c7e8872d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="064462c4-95f9-4381-8765-e2cf3adcb10f" absoluteBounds="2.75, 2.125, 1, 1" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="2eba9906-ce0f-4702-89ce-b7aa8baf9383" LastKnownName="Azure Deployment Package Management" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.125 : 3.18421052631579); (2.76646273136868 : 2.75224664963982)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c22b27cc-2d98-4a8a-ba1f-d31b3d17e4df" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="fb61dee6-0783-46f0-a85f-8e548799c9d6" />
+        <useCaseShapeMoniker Id="064462c4-95f9-4381-8765-e2cf3adcb10f" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="cdb1eb63-815f-408f-87db-71f8548a778a" absoluteBounds="2.375, 4.875, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e94923ea-79f9-499a-84ed-4623a1e655af" LastKnownName="Reporting on  Azure Deployment" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.125 : 3.5); (2.575 : 4.95)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="492de2bd-ebcd-4208-a66a-0fcfacd21d11" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="fb61dee6-0783-46f0-a85f-8e548799c9d6" />
+        <useCaseShapeMoniker Id="cdb1eb63-815f-408f-87db-71f8548a778a" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="ad207a72-3208-4b6d-9741-366b2c5074c7" absoluteBounds="2.75, 3.5, 1, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="61781c43-3c27-4fc3-a7bc-e1771f1add13" LastKnownName="Azure Deployment Package Deployment" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(1.125 : 3.32236842105263); (2.77530264418491 : 3.80008760752721)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="ab53c002-56df-4f7d-88a4-bb6063471d91" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="fb61dee6-0783-46f0-a85f-8e548799c9d6" />
+        <useCaseShapeMoniker Id="ad207a72-3208-4b6d-9741-366b2c5074c7" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <SubsystemShape Id="056bb6f9-89f9-471e-b32c-92cc8c3f5ad9" absoluteBounds="4.75, 0.5, 3, 1.625" customColor="White">
+      <subsystemMoniker Id="74454dc7-d005-4e79-a40a-f057d227e056" LastKnownName="Azure Configuration Area - This is subsystem is for the user to setup and configure the Azure Environment so that it is availbe as a selection in the Deployment tracker Tool.  Primary activity is obtaining the *.publishSettings (Credentials)  from the Windows Azure Portal" />
+    </SubsystemShape>
+    <SubsystemShape Id="1e793057-e869-40c1-8aab-fc2ef1edf2e6" absoluteBounds="8.375, 2.375, 3, 2.5" customColor="White">
+      <subsystemMoniker Id="5598138b-a2c3-4da8-82f1-a3bd2dc7dd90" LastKnownName="Data access layer - This subsystem is responsible for data interaction between the repository and also TFS or what ever the ALM system is that is connected too" />
+    </SubsystemShape>
+    <useCaseDependencyConnector edgePoints="[(7.52364864864865 : 2.125); (8.375 : 2.66810344827586)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="f8bd49dc-5fff-4bfc-ac5b-120df8d35a97" />
+      <relativeChildShapes />
+      <nodes>
+        <SubsystemShapeMoniker Id="056bb6f9-89f9-471e-b32c-92cc8c3f5ad9" />
+        <SubsystemShapeMoniker Id="1e793057-e869-40c1-8aab-fc2ef1edf2e6" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <SubsystemShape Id="b22982de-9935-452f-ae0e-e41e6a2f08d4" absoluteBounds="4.625, 3, 3, 1" customColor="White">
+      <subsystemMoniker Id="94bf1fbf-6332-4da3-8948-7755f4e5ef9a" LastKnownName="Deploument Tracker UI" />
+    </SubsystemShape>
+    <useCaseDependencyConnector edgePoints="[(7.625 : 3.55); (8.375 : 3.575)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="e99b6384-ae71-4145-be2d-bc9d97a80956" />
+      <relativeChildShapes />
+      <nodes>
+        <SubsystemShapeMoniker Id="b22982de-9935-452f-ae0e-e41e6a2f08d4" />
+        <SubsystemShapeMoniker Id="1e793057-e869-40c1-8aab-fc2ef1edf2e6" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <useCaseDependencyConnector edgePoints="[(6.20357142857143 : 2.125); (6.15357142857143 : 3)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="fafb4d94-41ee-425f-834d-f36bc5940257" />
+      <relativeChildShapes />
+      <nodes>
+        <SubsystemShapeMoniker Id="056bb6f9-89f9-471e-b32c-92cc8c3f5ad9" />
+        <SubsystemShapeMoniker Id="b22982de-9935-452f-ae0e-e41e6a2f08d4" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <useCaseAssociationConnector edgePoints="[(3.7583106818705 : 1.67119461780902); (5.47794117647059 : 3)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="c93c15f1-6db4-4e7f-a8e5-4dcb6f5d7419" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="992f278e-f6a0-423f-bcae-3af0c7e8872d" />
+        <SubsystemShapeMoniker Id="b22982de-9935-452f-ae0e-e41e6a2f08d4" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(3.72833694021443 : 2.77058080789135); (4.625 : 3.04347826086957)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="e7f39ccc-067b-40cb-9905-2905817dbf3c" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="064462c4-95f9-4381-8765-e2cf3adcb10f" />
+        <SubsystemShapeMoniker Id="b22982de-9935-452f-ae0e-e41e6a2f08d4" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(3.74260587740984 : 3.86253823604633); (4.625 : 3.72826086956522)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="edee44f6-36ca-4bf5-a65d-77a06fe20982" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="ad207a72-3208-4b6d-9741-366b2c5074c7" />
+        <SubsystemShapeMoniker Id="b22982de-9935-452f-ae0e-e41e6a2f08d4" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(3.2811618667958 : 5.03129745634073); (5.19642857142857 : 4)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="9f0bb398-8aa0-45f7-827d-4279e9edf3e6" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="cdb1eb63-815f-408f-87db-71f8548a778a" />
+        <SubsystemShapeMoniker Id="b22982de-9935-452f-ae0e-e41e6a2f08d4" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <SubsystemShape Id="4cac22ce-6b60-4695-bb22-2b93bf3f777e" absoluteBounds="4.625, 4.5, 3, 2.5" customColor="White">
+      <subsystemMoniker Id="854f4a17-bbaf-4193-8441-e42cef092c95" LastKnownName="Deploument Subsystem - This subsytem takes the Windows azure Connections.xml and modifies it to work with the powershell build script to build the proper project and deployment package via MSBuild.  In other words creating the *.AzurePubXml" />
+    </SubsystemShape>
+    <useCaseDependencyConnector edgePoints="[(6.125 : 4); (6.125 : 4.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="7d388b4c-e559-45ed-b441-60447162d783" />
+      <relativeChildShapes />
+      <nodes>
+        <SubsystemShapeMoniker Id="b22982de-9935-452f-ae0e-e41e6a2f08d4" />
+        <SubsystemShapeMoniker Id="4cac22ce-6b60-4695-bb22-2b93bf3f777e" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <useCaseDependencyConnector edgePoints="[(7.625 : 4.9); (8.375 : 4.475)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="9baa46f1-4020-4bea-b823-2aa585039951" />
+      <relativeChildShapes />
+      <nodes>
+        <SubsystemShapeMoniker Id="4cac22ce-6b60-4695-bb22-2b93bf3f777e" />
+        <SubsystemShapeMoniker Id="1e793057-e869-40c1-8aab-fc2ef1edf2e6" />
+      </nodes>
+    </useCaseDependencyConnector>
+    <SubsystemShape Id="7dfa206b-d65f-41df-ba18-a341943f5141" absoluteBounds="8.25, 5.375, 3, 2.5" customColor="White">
+      <subsystemMoniker Id="575fc367-821d-4592-a0f6-2ea6393f7ea0" LastKnownName="Azure Powershell Scripts" />
+    </SubsystemShape>
+    <useCaseDependencyConnector edgePoints="[(7.625 : 6.11206896551724); (8.25 : 6.26293103448276)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <dependencyMoniker Id="13444a38-39aa-4d55-885a-eb0bbfa6332c" />
+      <relativeChildShapes />
+      <nodes>
+        <SubsystemShapeMoniker Id="4cac22ce-6b60-4695-bb22-2b93bf3f777e" />
+        <SubsystemShapeMoniker Id="7dfa206b-d65f-41df-ba18-a341943f5141" />
+      </nodes>
+    </useCaseDependencyConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

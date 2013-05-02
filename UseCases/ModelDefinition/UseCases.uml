@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="292a8925-b7c3-4db8-87da-92435119f3ef"
+  name="UseCases" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="ff943679-cd7d-4c27-aee2-a1d40773b0a6"
+        name="Deployment Manager"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8c51fa31-415b-4ed2-8d2c-5ce32487aae9"
+            isDerived="false"
+            sourceEndRoleName="Deployment Manager"
+            targetEndRoleName="UseCase1"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f199d922-1716-4711-be2a-1931fd949bae"
+              LastKnownName="Azure Envrionment Configuration"
+              LastKnownLocation="UseCases.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d9f0db32-7202-499d-87cf-69d07b6e5057"
+                  name="Deployment Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d53d1b61-4295-45c5-bc91-b8b4a69d42a0"
+                  name="UseCase1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0b58c950-c41d-44f7-a5c3-0708fa1b041c"
+            isDerived="false"
+            sourceEndRoleName="Deployment Manager"
+            targetEndRoleName="UseCase2"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3e78d734-351b-4992-870a-0365274a2932"
+              LastKnownName="Azure Deployment Package Management"
+              LastKnownLocation="UseCases.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="38e7711a-02ad-42a5-b614-ba9513bc3f67"
+                  name="Deployment Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4e7dc983-1e1f-4ef0-b22f-8ed7765a0092"
+                  name="UseCase2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2f6fe60b-e27e-4ea6-bb07-25b4e9b56654"
+            isDerived="false"
+            sourceEndRoleName="Deployment Manager"
+            targetEndRoleName="UseCase3"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ef48b873-ffe4-4c7a-954f-82d80a15fbc6"
+              LastKnownName="Reporting on  Azure Deployment"
+              LastKnownLocation="UseCases.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5caee0c3-01ae-48db-8616-cd24050647ec"
+                  name="Deployment Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4496882b-f463-44fc-9750-0bab0f5b259f"
+                  name="UseCase3"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5fff54b5-40a5-4662-a4ca-d18894d9366b"
+            isDerived="false"
+            sourceEndRoleName="Deployment Manager"
+            targetEndRoleName="Azure Deployment Package Deployment"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8a9e2587-2b62-463c-8d94-751214228544"
+              LastKnownName="Azure Deployment Package Deployment"
+              LastKnownLocation="UseCases.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3af9707a-fb89-4299-9fcd-7e389374656f"
+                  name="Deployment Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d2e53f30-6e4f-44cf-99da-f589bb29da2d"
+                  name="Azure Deployment Package Deployment"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f199d922-1716-4711-be2a-1931fd949bae"
+        name="Azure Envrionment Configuration"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="71c88b5b-6ea5-4bf9-891d-f8344c9056f3"
+            isDerived="false"
+            sourceEndRoleName="Azure Envrionment Configuration"
+            targetEndRoleName="Deploument Tracker UI"
+            isLeaf="false"
+            isAbstract="false">
+            <subsystemMoniker
+              Id="101b4ad9-3616-4a65-bbd6-b87fc9c7aafe"
+              LastKnownName="Deploument Tracker UI"
+              LastKnownLocation="UseCases.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1b7fe9cf-96da-439c-8f47-809f7a2fd3c4"
+                  name="Azure Envrionment Configuration"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a9be6020-dd57-471f-804f-18ec4f7555e2"
+                  name="Deploument Tracker UI"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3e78d734-351b-4992-870a-0365274a2932"
+        name="Azure Deployment Package Management"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="dac84706-4148-47da-b4a6-faec441de7ee"
+            isDerived="false"
+            sourceEndRoleName="Azure Deployment Package Management"
+            targetEndRoleName="Deploument Tracker UI"
+            isLeaf="false"
+            isAbstract="false">
+            <subsystemMoniker
+              Id="101b4ad9-3616-4a65-bbd6-b87fc9c7aafe"
+              LastKnownName="Deploument Tracker UI"
+              LastKnownLocation="UseCases.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e2a996d2-f528-4214-91a1-4f6f88bcee7a"
+                  name="Azure Deployment Package Management"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a5b83b9c-d252-43f8-83b1-8f4fbfd4d4d1"
+                  name="Deploument Tracker UI"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ef48b873-ffe4-4c7a-954f-82d80a15fbc6"
+        name="Reporting on  Azure Deployment"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="82d2db31-7bf1-4c7b-a77e-adf7de1ae9c5"
+            isDerived="false"
+            sourceEndRoleName="Reporting on  Azure Deployment"
+            targetEndRoleName="Deploument Tracker UI"
+            isLeaf="false"
+            isAbstract="false">
+            <subsystemMoniker
+              Id="101b4ad9-3616-4a65-bbd6-b87fc9c7aafe"
+              LastKnownName="Deploument Tracker UI"
+              LastKnownLocation="UseCases.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7007bf3c-275d-4ccc-82d0-7d7e443738c2"
+                  name="Reporting on  Azure Deployment"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ea58fde2-d19e-4976-965c-b917adb80c66"
+                  name="Deploument Tracker UI"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8a9e2587-2b62-463c-8d94-751214228544"
+        name="Azure Deployment Package Deployment"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="996fd0d5-1cc5-4255-b79f-80b1034c1e2e"
+            isDerived="false"
+            sourceEndRoleName="Azure Deployment Package Deployment"
+            targetEndRoleName="Deploument Tracker UI"
+            isLeaf="false"
+            isAbstract="false">
+            <subsystemMoniker
+              Id="101b4ad9-3616-4a65-bbd6-b87fc9c7aafe"
+              LastKnownName="Deploument Tracker UI"
+              LastKnownLocation="UseCases.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f1fdbbf7-0b68-4eb7-a8a2-e4fb446a69d7"
+                  name="Azure Deployment Package Deployment"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="669b29e2-5cdd-46e6-b8b3-f3635060f4ed"
+                  name="Deploument Tracker UI"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="64c24710-e83b-4112-bc5b-3e9727b0a5f5"
+        name="Azure Configuration Area - This is subsystem is for the user to setup and configure the Azure Environment so that it is availbe as a selection in the Deployment tracker Tool.  Primary activity is obtaining the *.publishSettings (Credentials)  from the Windows Azure Portal"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="3fda2235-521c-447d-8cea-3f74fa8537e6">
+            <subsystemMoniker
+              Id="152d66fd-9fb1-4c3b-ba59-0e1230a5247e"
+              LastKnownName="Data access layer - This subsystem is responsible for data interaction between the repository and also TFS or what ever the ALM system is that is connected too"
+              LastKnownLocation="UseCases.uml" />
+          </dependency>
+          <dependency
+            Id="eaa8a80c-e08a-4f64-8ee4-98a52398dbde">
+            <subsystemMoniker
+              Id="101b4ad9-3616-4a65-bbd6-b87fc9c7aafe"
+              LastKnownName="Deploument Tracker UI"
+              LastKnownLocation="UseCases.uml" />
+          </dependency>
+        </suppliersInternal>
+      </subsystem>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="152d66fd-9fb1-4c3b-ba59-0e1230a5247e"
+        name="Data access layer - This subsystem is responsible for data interaction between the repository and also TFS or what ever the ALM system is that is connected too"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="101b4ad9-3616-4a65-bbd6-b87fc9c7aafe"
+        name="Deploument Tracker UI"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="211fa464-101b-45dc-9a41-14fa8ba333ad"
+            handle="%mcsvstf\MCS#88bb1125-2c44-46dd-861c-45af1aec225c$250633$250634"
+            tag="Work Item Reference" />
+        </referencesInternal>
+        <suppliersInternal>
+          <dependency
+            Id="eaa8274a-1f2a-40a1-8e50-9e680ee5da84">
+            <subsystemMoniker
+              Id="152d66fd-9fb1-4c3b-ba59-0e1230a5247e"
+              LastKnownName="Data access layer - This subsystem is responsible for data interaction between the repository and also TFS or what ever the ALM system is that is connected too"
+              LastKnownLocation="UseCases.uml" />
+          </dependency>
+          <dependency
+            Id="edb752fc-1045-4058-b41a-1480fc2a2794">
+            <subsystemMoniker
+              Id="abf16806-fc7c-46f6-9db1-153af3dcf645"
+              LastKnownName="Deploument Subsystem - This subsytem takes the Windows azure Connections.xml and modifies it to work with the powershell build script to build the proper project and deployment package via MSBuild.  In other words creating the *.AzurePubXml"
+              LastKnownLocation="UseCases.uml" />
+          </dependency>
+        </suppliersInternal>
+      </subsystem>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="abf16806-fc7c-46f6-9db1-153af3dcf645"
+        name="Deploument Subsystem - This subsytem takes the Windows azure Connections.xml and modifies it to work with the powershell build script to build the proper project and deployment package via MSBuild.  In other words creating the *.AzurePubXml"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="57b2ca6a-4a0d-4866-b4b5-881c563fa07c">
+            <subsystemMoniker
+              Id="152d66fd-9fb1-4c3b-ba59-0e1230a5247e"
+              LastKnownName="Data access layer - This subsystem is responsible for data interaction between the repository and also TFS or what ever the ALM system is that is connected too"
+              LastKnownLocation="UseCases.uml" />
+          </dependency>
+          <dependency
+            Id="7f7cfb3c-beb2-4aca-80e5-003b4e92219c">
+            <subsystemMoniker
+              Id="bb80725e-5866-4af7-a9d5-f81463c055b4"
+              LastKnownName="Azure Powershell Scripts"
+              LastKnownLocation="UseCases.uml" />
+          </dependency>
+        </suppliersInternal>
+      </subsystem>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="bb80725e-5866-4af7-a9d5-f81463c055b4"
+        name="Azure Powershell Scripts"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2bd71de5-7878-4dba-a0bf-5fab5ff6d586"
+            handle="%mcsvstf\MCS#88bb1125-2c44-46dd-861c-45af1aec225c$250632"
+            tag="Work Item Reference" />
+        </referencesInternal>
+      </subsystem>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
