@@ -90,15 +90,3 @@ E:\GitHub\Codebase\obj\x86\Debug\DeploymentTracker.Properties.Resources.resource
 E:\GitHub\Codebase\obj\x86\Debug\DeploymentTracker.App.csproj.GenerateResource.Cache
 E:\GitHub\Codebase\obj\x86\Debug\DeploymentTracker.exe
 E:\GitHub\Codebase\obj\x86\Debug\DeploymentTracker.pdb
-E:\GitHub\Codebase\bin\Debug\Data\DeploymentTrackerLocalDB.sdf
-E:\GitHub\Codebase\bin\Debug\DeploymentTracker.exe.config
-E:\GitHub\Codebase\bin\Debug\DeploymentTracker.exe.manifest
-E:\GitHub\Codebase\bin\Debug\DeploymentTracker.application
-E:\GitHub\Codebase\bin\Debug\DeploymentTracker.exe
-E:\GitHub\Codebase\bin\Debug\DeploymentTracker.pdb
-E:\GitHub\Codebase\bin\Debug\DeploymentTracker.Services.dll
-E:\GitHub\Codebase\bin\Debug\Microsoft.WindowsAzure.StorageClient.dll
-E:\GitHub\Codebase\bin\Debug\DeploymentTracker.Services.pdb
-E:\GitHub\Codebase\obj\x86\Debug\DeploymentTracker.TrustInfo.xml
-E:\GitHub\Codebase\obj\x86\Debug\DeploymentTracker.exe.manifest
-E:\GitHub\Codebase\obj\x86\Debug\DeploymentTracker.application

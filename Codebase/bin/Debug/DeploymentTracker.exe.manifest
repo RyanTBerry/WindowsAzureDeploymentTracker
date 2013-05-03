@@ -133,18 +133,18 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="System.Data.SqlServerCe" version="4.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="System.Data.SqlServerCe" version="3.5.1.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DeploymentTracker.exe" size="322560">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DeploymentTracker.exe" size="322048">
       <assemblyIdentity name="DeploymentTracker" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>B3mpBpe4kZHWMG8PM/PDHCMQaGM=</dsig:DigestValue>
+        <dsig:DigestValue>nvUlmR99G3JV+ByS8IquHfBApJg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -156,7 +156,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>aHnmQ7BrqNUgxOzYTdN0OIcevxk=</dsig:DigestValue>
+        <dsig:DigestValue>xe7IIYTr+0MFatMsjMEPLZvW3pI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -172,31 +172,22 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Data\DeploymentTrackerLocalDB.sdf" size="65536" writeableType="applicationData">
+  <file name="Data\DeploymentTrackerLocalDB.sdf" size="94208" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>ngGEWcgDGh4m+4zsxBj0BWjnKDE=</dsig:DigestValue>
+      <dsig:DigestValue>Uo1BObhQnRj1EdZB+nwX353rAmw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="DeploymentTracker.exe.config" size="3687">
+  <file name="DeploymentTracker.exe.config" size="3666">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>YC5ZCkh1Wc/Z3JVzCkU/6kAIzsk=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="License\ReadMe.txt" size="2983">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>Mcug1k14KNYhelk22ijhwlzUAy8=</dsig:DigestValue>
+      <dsig:DigestValue>ee8FYBas51bLxaLmJFOXrjoJ028=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\Config_Util.PNG" size="2153">
